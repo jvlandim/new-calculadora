@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin: 3px;
+  border-radius: 10%;
+}
+
+.border{ 
+    border-radius: 50%;
+    background-color: #F78229 ;
+ 
+}
+.textview{
+    width: 210px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+.zero{
+    width: 107px;
+    color: white;
+    background-color: #141313;
+    border-radius: 10%;
+}
+
+.igual{
+    height: 106px;
+    color: white;
+    background-color: #141313;
+    border-radius: 10%;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5%;
+}
